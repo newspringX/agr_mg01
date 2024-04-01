@@ -25,6 +25,24 @@ button {
   font-family: inherit;
 }
 
+/* PC point*/
+@media screen and (min-width: 992px) {
+}
+
+/* Tablet and Mobile point*/
+
+@media screen and (max-width: 991.98px) {
+}
+
+/* Tablet point*/
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Mobile point*/
+@media screen and (max-width: 767.98px) {
+}
+
+/*  */
 .container {
   width: 108rem;
   max-width: calc(100% - 4.8rem);
@@ -63,8 +81,15 @@ button {
   flex-shrink: 0;
 }
 
+.card_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .title {
   color: #c12026;
+  max-width: 100%;
   text-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   font-family: Roboto;
   font-size: 4.8rem;
@@ -72,9 +97,15 @@ button {
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .name {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   color: #c12026;
   text-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   font-family: Roboto;
