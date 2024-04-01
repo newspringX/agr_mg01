@@ -81,12 +81,6 @@ button {
   flex-shrink: 0;
 }
 
-.card_name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .title {
   color: #c12026;
   max-width: 100%;
